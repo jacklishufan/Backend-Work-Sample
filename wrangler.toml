@@ -1,0 +1,17 @@
+name = "worker-typescript-template"
+type = "javascript"
+account_id = "e4f0bf740924a54d47876af34b9d09ff"
+workers_dev = true
+route = "jacklishufan.workers.dev"
+zone_id = ""
+
+kv_namespaces = [
+         { binding = "POST_DB", id = "752fc73bfc73473bab67dd9a19001a8f",preview_id="752fc73bfc73473bab67dd9a19001a8f" }
+]
+
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
+
