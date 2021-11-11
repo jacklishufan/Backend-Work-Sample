@@ -1,4 +1,4 @@
-# Frontend Code Sample -src
+# Backend Code Sample -src
 
 This repo is a code sample of my backend work. It was created using Django.
 
